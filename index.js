@@ -23,4 +23,8 @@ function multiplesOfFourOrSeven(){
 }
 
 multiplesOfFourOrSeven()
+
+function square(num){
+    if 
+}
  
