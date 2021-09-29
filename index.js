@@ -31,10 +31,19 @@ function square(num){
        return num * num
     }
 }
+
+
+function areaofrec(x,y){
+    let area = x * y
+    return area
+}
+
  
- console.log(square(36));
+ 
  
  function circleArea(radius){
      return Math.PI *(radius * radius)
  }
- console.log(circleArea(3));
+ console.log(areaofrec(4,5))
+ 
+ 
