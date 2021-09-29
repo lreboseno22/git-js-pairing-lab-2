@@ -13,4 +13,14 @@ function absoluteValue(num){
         return null
     }
 }
-console.log(absoluteValue("string"));
+ 
+function multiplesOfFourOrSeven(){
+    for (let i = 0; i <= 100; i++){
+        if (i % 4 === 0|| i % 7 ===0){
+            console.log(i)
+        }
+    }
+}
+
+multiplesOfFourOrSeven()
+ 
