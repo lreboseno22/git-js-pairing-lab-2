@@ -25,6 +25,11 @@ function multiplesOfFourOrSeven(){
 multiplesOfFourOrSeven()
 
 function square(num){
-    if 
+    if (Number.isInteger(Math.sqrt(num)) === true){
+        return Math.sqrt(num);
+    } else {
+       return num * num
+    }
 }
  
+ console.log(square(36))
