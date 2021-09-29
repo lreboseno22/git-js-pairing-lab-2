@@ -32,4 +32,9 @@ function square(num){
     }
 }
  
- console.log(square(36))
+ console.log(square(36));
+ 
+ function circleArea(radius){
+     return Math.PI *(radius * radius)
+ }
+ console.log(circleArea(3));
